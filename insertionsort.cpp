@@ -6,7 +6,7 @@ int n;          //membuat variabel inputan n
 
 void input (){  //procedure input
     while (true){
-        cout << 'Masukkan Jumlah Data Pada Array ; ';
+        cout << "Masukkan Jumlah Data Pada Array : ";
         cin >> n;
 
         if (n <= 20){
@@ -21,7 +21,7 @@ void input (){  //procedure input
     cout << "===========Masukkan Element Array==========";
     cout << "===========================================" << endl;
 
-    for (int i = 0, i < n; i++ ){
+    for (int i = 0; i<n; i++ ){
         cout << "Data ke-" << (i+1) << ": ";
         cin >> arr[i];
     }
@@ -61,7 +61,7 @@ void display(){
 }
 
 int main(){
-    input():
+    input();
     insertionsort();
     display();
     system("pause");
